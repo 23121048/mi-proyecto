@@ -12,10 +12,44 @@
         <ul>Equipo de trabajo</ul>
     </nav>
     <header>
-        <h2>Portal de la escuela profesional de ingeniería de sistemas</h2>
+        <h1>Portal de la escuela profesional de ingeniería de sistemas</h2>
     </header>
     <main>
-
+        <div>
+            <h2>REGISTRO DE ALUMNOS</h2>
+            <form action="">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" pattern="[^\d]*" placeholder="e.g. Alex" required>
+                <br>
+                <p></p>
+                <label for="ape_paterno">Apellido paterno</label>
+                <input type="text" name="ape_paterno" pattern="[^\d]*" placeholder="e.g. Novoa" required>
+                <br>
+                <p></p>
+                <label for="ape_materno">Apellido materno</label>
+                <input type="text" name="ape_materno" pattern="[^\d]*" placeholder="e.g. Rivera" required>
+                <br>
+                <p></p>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" placeholder="23" required>
+                <!--no hace falta br--> 
+                <p></p>
+                <label for="email">Correo</label>
+                <input type="email" name="email" placeholder="xxxxx@unamad.edu.pe" required>
+                <p></p>
+                <label>
+                <input type="radio" name="genero" value="M" required>
+                Masculino
+                </label>
+                <label>
+                <input type="radio" name="genero" value="F" required>
+                Femenino
+                </label>
+                <p>
+                <input type="submit" value="Enviar">
+                
+            </form>
+        </div>
     </main>
 </body>
 </html>
