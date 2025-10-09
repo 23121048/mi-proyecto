@@ -1,0 +1,35 @@
+.general {
+    width: 50px;
+    height: 100px;
+    font-size: 1em;
+    background-color: aquamarine;
+}
+
+.px {
+    width: 200px;
+    height: 100px;
+    background-color: azure;
+}
+
+.vw {
+    width: 10vw;
+    height: 10vh;
+    background-color: yellow;
+}
+
+.em {
+    width: 10em;
+    height: 10em;
+    background-color: red;
+}
+
+.rem {
+    /* width: 10em;
+    height: 10em; */
+    background-color: green;
+}
+
+.por {
+    width: 50%;
+    background-color: black;
+}

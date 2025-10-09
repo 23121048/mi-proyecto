@@ -83,3 +83,66 @@ td, th {
     border: 1px solid rgb(80, 169, 80);
     text-align: center;
 }
+
+p::first-line{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+::selection {
+    background-color: red;
+
+    /* averiguar */
+}
+
+p::first-letter{
+    color: aqua;
+}
+
+
+#lista-especialidad li:nth-child(1) {
+    background-color: #ffe4e1; 
+}
+#lista-especialidad li:nth-child(2) {
+    background-color: #fff5ba; 
+}
+#lista-especialidad li:nth-child(3) {
+    background-color: #d5f5e3; 
+}
+#lista-especialidad li:nth-child(4) {
+    background-color: #d6eaf8; 
+}
+#lista-especialidad li:nth-child(5) {
+    background-color: #e8daef; 
+}
+
+
+
+
+section:last-of-type li:nth-child(1) {
+    background-color: #ffe4e1; 
+}
+section:last-of-type li:nth-child(2) {
+    background-color: #fff5ba; 
+}
+section:last-of-type li:nth-child(3) {
+    background-color: #d5f5e3; 
+}
+section:last-of-type li:nth-child(4) {
+    background-color: #d6eaf8; 
+}
+section:last-of-type li:nth-child(5) {
+    background-color: #e8daef; 
+}
+
+
+
+div li{
+    background-color: solid red;
+
+    /* averiguar */
+}
+
+ul>li{
+    border-top: 1px solid red;
+}
